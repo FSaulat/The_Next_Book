@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Raleway', sans-serif;
+    background: linear-gradient(to right, #FFC8DD, #FFAFCC, #BDE0FE, #A2D2FF);
+  }
+  
+  /* Navbar */
+  nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #FFC8DD;
+    padding: 15px 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    z-index: 999;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    margin: 0 20px;
+  }
+  
+  .nav-links li a {
+    position: relative;
+    color: #333;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 6px 0;
+  }
+  
+  .nav-links li a:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    width: 0%;
+    background: #BDE0FE;
+    border-radius: 12px;
+    transition: all 0.4s ease;
+  }
+  
+  .nav-links li a:hover:before {
+    width: 100%;
+  }
+  
+  main {
+    padding-top: 100px;
+  }
+  
+  /* Gallery Grid */
+  .gallery-image {
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Book Card */
+  .img-box {
+    position: relative;
+    width: 180px;
+    height: 280px;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+  }
+  
+  .transparent-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 0.3s ease;
+  }
+  
+  .caption {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .img-box:hover img {
+    transform: scale(1.05);
+  }
+  
+  .img-box:hover .transparent-box {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .img-box:hover .caption {
+    transform: translateY(-10px);
+    opacity: 1;
+  }
+  
+  .home-content {
+    text-align: center;
+    max-width: 600px;
+    margin: 60px auto;
+    color: #333;
+    display: none;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
