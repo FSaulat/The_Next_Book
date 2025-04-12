@@ -1,0 +1,101 @@
+{
+    "books_2025": [
+      {
+        "Title": "A Psalm for the Wild-Built (Monk & Robot, #1)",
+        "Author": "Chambers, Becky",
+        "Year Published": "2021",
+        "Page #": 151,
+        "Genre": "Hopepunk / Sci-Fi",
+        "Status": "read",
+        "Description": "A tea monk and a robot explore life's big questions in a gentle, hopeful future.",
+        "Image Path": "not set",
+        "Date Finished": "Jan 1, 2025",
+        "Stars": 4.25
+      },
+      {
+        "Title": "Phantasma (Wicked Games, #1)",
+        "Author": "Smith, Kaylie",
+        "Year Published": "2024",
+        "Page #": 497,
+        "Genre": "Fantasy Romance",
+        "Status": "read",
+        "Description": "Magic and passion clash in a deadly game of power and desire.",
+        "Image Path": "not set",
+        "Date Finished": "Jan 16, 2025",
+        "Stars": 3.75
+      },
+      {
+        "Title": "The Naturals (The Naturals, #1)",
+        "Author": "Barnes, Jennifer Lynn",
+        "Year Published": "2013",
+        "Page #": 308,
+        "Genre": "YA Thriller",
+        "Status": "read",
+        "Description": "Teen profilers solve cold cases for the FBI—until a killer targets them.",
+        "Image Path": "not set",
+        "Date Finished": "Feb 28, 2025",
+        "Stars": 4.0
+      },
+      {
+        "Title": "In Praise of Shadows",
+        "Author": "Tanizaki, Jun'ichirō",
+        "Year Published": "1933",
+        "Page #": 56,
+        "Genre": "Essay / Aesthetics",
+        "Status": "read",
+        "Description": "A poetic ode to the beauty of shadows in Japanese culture.",
+        "Image Path": "not set",
+        "Date Finished": "Feb 4, 2025",
+        "Stars": 4.0
+      },
+      {
+        "Title": "Under the Oak Tree, Vol. 1",
+        "Author": "Kim, Suji",
+        "Year Published": "2024",
+        "Page #": 496,
+        "Genre": "Fantasy Romance",
+        "Status": "read",
+        "Description": "A timid noblewoman and a fearsome knight navigate a marriage of convenience.",
+        "Image Path": "not set",
+        "Date Finished": "Mar 22, 2025",
+        "Stars": 4.25
+      },
+      {
+        "Title": "Into Perfect Spheres Such Holes Are Pierced",
+        "Author": "Barnett, Catherine",
+        "Year Published": "2004",
+        "Page #": 80,
+        "Genre": "Poetry",
+        "Status": "read",
+        "Description": "Haunting poems about loss, grief, and the search for meaning.",
+        "Image Path": "not set",
+        "Date Finished": "Mar 26, 2025",
+        "Stars": 4.25
+      },
+
+      {
+        "Title": "Granny Cloud",
+        "Author": "Fathi, Farnoosh",
+        "Year Published": "2024",
+        "Page #": 101,
+        "Genre": "Poetry",
+        "Status": "read",
+        "Description": "Poems that one needs to read over and over, finding beauty each time..",
+        "Image Path": "not set",
+        "Date Finished": "April 4, 2025",
+        "Stars": 4.25
+      },
+      {
+        "Title": "Sunrise on the Reaping",
+        "Author": "Collins, Suzanne",
+        "Year Published": "2025",
+        "Page #": 382,
+        "Genre": "Young Adult Dystopian",
+        "Status": "read",
+        "Description": "NOW I KNOW EXACLTY WHY HAYMITCH IS A DRUNK",
+        "Image Path": "not set",
+        "Date Finished": "April 6, 2025",
+        "Stars": 4.75
+      }
+    ]
+  }

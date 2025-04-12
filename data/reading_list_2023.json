@@ -1,0 +1,137 @@
+{
+  "books_2023": [
+    {
+      "Title": "Pandora's Jar: Women in the Greek Myths",
+      "Author": "Natalie Haynes",
+      "Year Published": "2020",
+      "Page #": "320",
+      "Genre": "Mythology / Non-Fiction",
+      "Status": "Read",
+      "Description": "An engaging reexamination of Greek myths told through the voices of the women behind them.",
+      "Image Path": "images/pandoras_jar.jpg",
+      "Date Finished": "Jan 09, 2023",
+      "Stars": 4
+    },
+    {
+      "Title": "The Atlas Paradox (The Atlas, #2)",
+      "Author": "Olivie Blake",
+      "Year Published": "2022",
+      "Page #": "397",
+      "Genre": "Fantasy",
+      "Status": "Read",
+      "Description": "A mysterious sequel that deepens the competition among gifted mages in a secret society.",
+      "Image Path": "images/the_atlas_paradox.jpg",
+      "Date Finished": "Jan 14, 2023",
+      "Stars": 3.5
+    },
+    {
+      "Title": "From Blood and Ash (Blood and Ash, #1)",
+      "Author": "Jennifer L. Armentrout",
+      "Year Published": "2020",
+      "Page #": "622",
+      "Genre": "Fantasy / Romance",
+      "Status": "Read",
+      "Description": "A sweeping epic blending high fantasy and romance in a world where destiny is both a curse and a blessing.",
+      "Image Path": "images/from_blood_and_ash.jpg",
+      "Date Finished": "May 21, 2023",
+      "Stars": 3.5
+    },
+    {
+      "Title": "Babel",
+      "Author": "R.F. Kuang",
+      "Year Published": "2022",
+      "Page #": "544",
+      "Genre": "Historical Fiction / Fantasy",
+      "Status": "Read",
+      "Description": "A powerful exploration of language, empire, and rebellion set against a backdrop of magical realism.",
+      "Image Path": "images/babel.jpg",
+      "Date Finished": "May 25, 2023",
+      "Stars": 4.5
+    },
+    {
+      "Title": "The Serpent and the Wings of Night (Crowns of Nyaxia, #1)",
+      "Author": "Carissa Broadbent",
+      "Year Published": "2022",
+      "Page #": "504",
+      "Genre": "Fantasy / Adventure",
+      "Status": "Read",
+      "Description": "An epic debut where myth and magic collide in a high-stakes battle for power.",
+      "Image Path": "images/the_serpent_and_the_wings_of_night.jpg",
+      "Date Finished": "May 30, 2023",
+      "Stars": 3.75
+    },
+    {
+      "Title": "The Shadow of the Wind (The Cemetery of Forgotten Books, #1)",
+      "Author": "Carlos Ruiz Zafón",
+      "Year Published": "2001",
+      "Page #": "487",
+      "Genre": "Historical Fiction / Mystery",
+      "Status": "Read",
+      "Description": "A mesmerizing tale set in post-war Barcelona where a young man’s discovery of a forgotten book changes his life.",
+      "Image Path": "images/the_shadow_of_the_wind.jpg",
+      "Date Finished": "July 23, 2023",
+      "Stars": 4.5
+    },
+    {
+      "Title": "The Last Tale of the Flower Bride",
+      "Author": "Roshani Chokshi",
+      "Year Published": "2023",
+      "Page #": "289",
+      "Genre": "Fantasy / Historical Fiction",
+      "Status": "Read",
+      "Description": "A reimagined myth blending cultural lore with a poignant tale of love and sacrifice.",
+      "Image Path": "images/the_last_tale_of_the_flower_bride.jpg",
+      "Date Finished": "Jul 23, 2023",
+      "Stars": 4
+    },
+    {
+      "Title": "The Ten Thousand Doors of January",
+      "Author": "Alix E. Harrow",
+      "Year Published": "2019",
+      "Page #": "416",
+      "Genre": "Fantasy / Historical Fiction",
+      "Status": "Read",
+      "Description": "A captivating portal fantasy exploring the magic of stories and secret doorways to other worlds.",
+      "Image Path": "images/the_ten_thousand_doors_of_january.jpg",
+      "Date Finished": "Jul 29, 2023",
+      "Stars": 3.5
+    },
+    {
+      "Title": "Demon in the Wood (Grishaverse, #0)",
+      "Author": "Leigh Bardugo",
+      "Year Published": "2022",
+      "Page #": "203",
+      "Genre": "Fantasy / Dark Fantasy",
+      "Status": "Read",
+      "Description": "A haunting novella set in the Grishaverse that explores the interplay between myth, magic, and the supernatural.",
+      "Image Path": "images/demon_in_the_wood.jpg",
+      "Date Finished": "Aug 07, 2023",
+      "Stars": 4
+    },
+    {
+      "Title": "A Curse for True Love (Once Upon a Broken Heart, #3)",
+      "Author": "Stephanie Garber",
+      "Year Published": "2023",
+      "Page #": "386",
+      "Genre": "Fantasy / Romance",
+      "Status": "Read",
+      "Description": "A spellbinding tale where curses and true love collide in a magical world.",
+      "Image Path": "images/a_curse_for_true_love.jpg",
+      "Date Finished": "Nov 13, 2023",
+      "Stars": 4.5
+    },
+    {
+      "Title": "The Dead Romantics",
+      "Author": "Ashley Poston",
+      "Year Published": "2022",
+      "Page #": "368",
+      "Genre": "Contemporary Fiction / Romance",
+      "Status": "Read",
+      "Description": "A modern narrative exploring love, loss, and the haunting allure of past relationships.",
+      "Image Path": "images/the_dead_romantics.jpg",
+      "Date Finished": "Dec 20, 2023",
+      "Stars": 4.5
+    }
+  ]
+}
+  

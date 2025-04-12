@@ -1,0 +1,176 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/* ===== Global Reset ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Includes padding and border in element's total size */
+  }
+  
+  /* ===== Body Styling ===== */
+  body {
+    font-family: 'Raleway', sans-serif;
+    background: linear-gradient(to right, #FFC8DD, #FFAFCC, #BDE0FE, #A2D2FF); /* Pastel gradient background */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full height of screen */
+}
+  
+  /* ===== Navigation Bar ===== */
+  nav {
+    width: 100%;
+    position: fixed; /* Keeps navbar fixed at the top */
+    top: 0;
+    background-color: #FFC8DD; /* Soft pink background */
+    padding: 15px 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Light shadow under navbar */
+    z-index: 999; /* Makes sure it stays on top */
+  }
+  
+  /* ===== Nav Links Container ===== */
+  .nav-links {
+    display: flex; /* Aligns links horizontally */
+    justify-content: center; /* Centers nav links */
+    align-items: center;
+    list-style: none; /* Removes default list bullets */
+  }
+  
+  /* ===== Individual Nav Items ===== */
+  .nav-links li {
+    margin: 0 20px; /* Horizontal spacing between links */
+  }
+  
+  /* ===== Nav Link Styling ===== */
+  .nav-links li a {
+    position: relative; /* Needed for custom underline */
+    color: #333;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 6px 0;
+  }
+  
+  /* ===== Underline Animation ===== */
+  .nav-links li a:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    width: 0%;
+    background: #BDE0FE; /* Blue underline */
+    border-radius: 12px;
+    transition: all 0.4s ease; /* Smooth animation */
+  }
+  
+  /* ===== On Hover, Expand Underline ===== */
+  .nav-links li a:hover:before {
+    width: 100%;
+  }
+  
+  /* ===== Add Space Below Fixed Navbar ===== */
+  main {
+    padding-top: 100px;
+    flex: 1; /* Takes up remaining space */
+  }
+
+ /* ===== Homepage Welcome Box ===== */
+ .home-content {
+  text-align: center;
+  max-width: 600px;
+  margin: 60px auto;
+  color: #333;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+  
+  
+  /* ===== Book Gallery Container ===== */
+  .gallery-image {
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    justify-content: center;
+    gap: 20px; /* Space between book cards */
+  }
+  
+  /* ===== Book Card Box ===== */
+  .img-box {
+    position: relative;
+    width: 180px;
+    height: 280px;
+    background-color: white;
+    overflow: hidden; /* Hides overflow during zoom */
+    border-radius: 8px;
+  }
+  
+  /* ===== Book Cover Image ===== */
+  .img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Scales image to fill box without distortion */
+    transition: transform 0.4s ease;
+  }
+  
+  /* ===== Transparent Hover Overlay ===== */
+  .transparent-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0); /* Fully transparent by default */
+    transition: background-color 0.3s ease;
+  }
+  
+  /* ===== Book Caption Text ===== */
+  .caption {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    opacity: 0; /* Hidden initially */
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  /* ===== Zoom Effect on Hover ===== */
+  .img-box:hover img {
+    transform: scale(1.05); /* Slight zoom-in */
+  }
+  
+  /* ===== Darken Overlay on Hover ===== */
+  .img-box:hover .transparent-box {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  /* ===== Show Caption on Hover ===== */
+  .img-box:hover .caption {
+    transform: translateY(-10px); /* Slide up slightly */
+    opacity: 1;
+  }
+  
+  /* Footer */
+  footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #FFC8DD;
+    color: #333;
+    font-size: 14px;
+    margin-top: 40px;
+    position: relative;
+    bottom: 0;
+  }
+  
+
